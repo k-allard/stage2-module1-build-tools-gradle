@@ -1,6 +1,6 @@
 //add everything here
 java {
-    sourceCompatibility = '17'
+    sourceCompatibility = '1.8'
 }
 
 dependencies {
