@@ -1,4 +1,11 @@
 //add everything here
+java {
+    sourceCompatibility = '17'
+}
+
+dependencies {
+    implementation project(':utils')
+}
 
 test {
     useJUnitPlatform()
