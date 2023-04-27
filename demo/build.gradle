@@ -3,6 +3,10 @@ java {
     sourceCompatibility = '1.8'
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     implementation project(':utils')
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
